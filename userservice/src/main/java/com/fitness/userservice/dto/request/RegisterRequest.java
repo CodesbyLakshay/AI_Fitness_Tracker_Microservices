@@ -13,7 +13,7 @@ public class RegisterRequest {
     @NotBlank(message = "Keep a Strong Password")
     @Size(min = 8,message = "Minimum Password length must be 8 characters")
     private String password;
-    
-    private String firstname;
-    private String lastname;
+
+    private String firstName;
+    private String lastName;
 }
