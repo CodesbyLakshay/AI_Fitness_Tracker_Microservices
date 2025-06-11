@@ -1,10 +1,9 @@
 package com.fitness.activityservice.dto.response;
 
 import lombok.Data;
-import model.ActivityType;
+import com.fitness.activityservice.model.ActivityType;
 import java.time.LocalDateTime;
 import java.util.Map;
-import java.util.Objects;
 
 @Data
 public class ActivityResponse {
